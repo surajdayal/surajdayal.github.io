@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enver Creek</title>
+</head>
+ <style>
+    
+    body {
+    	
+         background: #00ff00 url("https://previews.123rf.com/images/imichman/imichman1505/imichman150500040/39583776-Seamless-pattern-Stylish-texture-with-the-repeating-pixel-triangles-Pixel-background-Repeating-small-Stock-Vector.jpg"); 
+        
+      }
+table, th, td {
+    border: 1px solid black;
+  }
+   img {
+        width: 300px;
+        height: 150px;
+        display: block;
+        margin: auto;
+    }
+ 
+
+<body>
+ <style
+    
+    
+</style>
+ 	<h1>Enver Creek </h1>
+    <img src="http://static.panoramio.com/photos/original/68947187.jpg" alt="Mountain View" width="300" height="150">
+	<p>Enver Creek Secondary School is a public high school located in Surrey.</p>
+	<p>Home of the Cogars.</p>
+<body>
+ <table style="width:100%">
+  <tr>
+    <th>Bell Schedule</th>
+    <th>Clases</th> 
+  
+  </tr>
+  <tr>
+    <td>8:30-9:50</td>
+    <td>Warning Bell</tr>
+    <td>8:30-9:50</td>
+    <td>1st Block</td>
+    <tr>
+    <td>8:30-9:50</td>
+    <td>TAG </td>
+    <tr>
+    <td>8:30-9:50</td>
+    <td>2nd Block</td>
+    <tr>
+    <td>8:30-9:50</td>
+    <td>8:30-9:508:30-9:50</td>
+   
+  </tr>
+  <tr>
+      
+</body>
+</html>
