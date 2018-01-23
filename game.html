@@ -1,0 +1,69 @@
+var ready = prompt('Are you ready? (Yes or No)').toUpperCase();
+if (ready === 'YES') {
+  newGame();
+} else {
+  document.write('Restart the game, once you are ready to play.')
+}
+
+function newGame() {
+  var awake = prompt('You find yourself in a locked bedroom held hostage. The room looks like an apartment building, which probally has multiple rooms, a balcony DOOR and vent duck as your only means of escape. Which way should you go? (Your options are BALCONY, VENT)').toUpperCase();
+  switch (awake) {
+    case 'balcony':
+      alert('You entered the balcony.')
+      bedRooms();
+      break;
+    case 'vent':
+      alert('You entered the vent.')
+      bathRooms1();
+      break:
+      alert('Make sure you typed it down properly')
+      newGame();
+      break;
+  }
+}
+
+function balcony() {
+  var balcony1 = prompt('You are on a very high floor so you cant jump to saftey so you are left with three options attempt to jump to you neighboring balcony left or right or go back" "left" or "right", or "leave"'.toUpperCase():
+  if (balcony1 === 'left') {
+    alert('the jumps looks bigger then your right option but you take the leap and fall to your death"');
+    newGame();
+  }
+  if (balcony1 === 'right') {
+    alert('you look at the gap and you run up to the jump and you make the leep, you make the jump and you are left on the neighboring balcony');
+    balcony2();
+  }
+  if (balcony1 === 'LEAVE') {
+    alert('You left the balcony.')
+    newGame();
+  }
+}
+
+function balcony2() {
+    var balcony2 = prompt('the door to the balcony room was left open you walk in and see a couple watching T.V they scream but you tell the your story and they help you to safty"').toUpperCase();
+ newGame();
+ }
+ 
+function vent() {
+  var vent = prompt ()"you find yourself crawling through a vent with one direction then you find a split and you can go left or right
+  .toUpperCase():
+  switch (vent)
+  case 'left':
+    alert("you chose to keep going left till u see a ligh it was the vent duck to the elavtor room u jump down a escape");
+    newGame();
+    break;
+  case 'right':
+    alert("u chose to right for a long time you kepp sufflying till you see a light its a duck to a gym you jump down and relize you kidnappers was working out while you were locked up and you get put back into the room")
+    newGame();
+    break}
+
+ var vent = prompt('you find yourself crawling through a vent with one direction then you find a split and you can go left or right("left" or "Look around" or turn back around")) .toUpperCase():
+  switch (vent)
+  case 'left':
+    alert("you chose to keep going left till u see a ligh it was the vent duck to the elavtor room u jump down a escape");
+    newGame();
+    break;
+  case 'right':
+    alert("u chose to right for a long time you kepp sufflying till you see a light its a duck to a gym you jump down and relize you kidnappers was working out while you were locked up and you get put back into the room")
+    newGame();
+    break
+    }
