@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <script>
+      var ready = prompt('Are you ready? Yes or No?').toUpperCase();
+if (ready === 'YES') {
+  newGame();
+} else {
+  alert('Restart the game, once you are ready to play.')
+}
+
+
+function newGame() {
+  var awake = prompt('You find yourself in a locked bedroom held hostage. The room looks like an apartment building, which probably  has multiple rooms, a balcony DOOR and vent duck as your only means of escape. Which way should you go? (Your options are BALCONY, VENT)').toUpperCase();
+  switch (awake) {
+    case 'BALCONY':
+      alert('You entered the balcony.');
+      balcony();
+      break;
+
+    case 'VENT':
+      alert('You entered the vent.');
+      vent();
+      break;
+
+    default:
+      alert('Make sure you typed it down properly');
+      newGame();
+      break;
+  }
+}
+
+
+function balcony() {
+  var balcony1 = prompt('You are on a very high floor so you cant jump to saftey so you are left with three options attempt to jump to you neighboring balcony left or right or go backleft or right, or leave').toUpperCase();
+  if (balcony1 === 'LEFT') {
+    alert("the jumps looks bigger then your right option but you take the leap and fall to your death");
+    newGame();
+  } else if (balcony1 === 'RIGHT') {
+    alert('you look at the gap and you run up to the jump and you make the leep, you make the jump and you are left on the neighboring balcony');
+    alert('the door to the balcony room was left open you walk in and see a couple watching T.V they scream but you tell the your story and they help you to safty');
+    newGame();
+  } else if (balcony1 === 'LEAVE') {
+    alert('You left the balcony.')
+    newGame();
+  }
+}
+
+
+
+function vent() {
+  var vent = prompt("you find yourself crawling through a vent with one direction then you find a split and you can go left or right(left or Look around or turn back around)").toUpperCase();
+  if (vent === "LEFT") {
+    alert("you chose to keep going left till u see a ligh it was the vent duck to the elavtor room u jump down a escape");
+    newGame();
+  } else if (vent === "RIGHT") {
+    alert("You chose to right for a long time you keep crawling till you see a light its a duck to a gym you jump down and relize you kidnappers was working out while you were locked up and you get put back into the room")
+  }
+}
+
+      </script>
+     </head>
+     <body>
+     </body>
+     </html>
